@@ -1,11 +1,15 @@
 # Messenger Laravel
 
+## Requisitos
+
+- PHP ^8.0.2 
+
 ## Instalação
 
 Via Composer
 
 ```bash
-$ composer require braiphub/messenger-laravel
+$ composer require braiphub/messenger-laravel-php-8.1
 $ php artisan vendor:publish --tag=messenger.config
 ```
 
@@ -16,7 +20,7 @@ Para instalação compatível com **Composer 1**, forçar a busca no repositóri
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/braiphub/messenger-laravel"
+            "url": "https://github.com/braiphub/messenger-laravel-php-8.1"
         }
     ]
 }
