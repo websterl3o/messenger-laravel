@@ -1,11 +1,14 @@
 {
     "name": "braiphub/messenger-laravel",
-    "description": "Implementação Laravel do Messenger",
+    "description": "Implementação Laravel do Messenger para o php 8.1",
     "homepage": "https://github.com/braiphub/messenger-laravel",
-    "keywords": ["Laravel", "Messenger"],
+    "keywords": [
+        "Laravel",
+        "Messenger"
+    ],
     "config": {
         "platform": {
-            "php": "7.2.5"
+            "php": "8.1.0"
         }
     },
     "repositories": {
@@ -16,7 +19,7 @@
         }
     },
     "require": {
-        "php": "^7.2|^8.0",
+        "php": "^8.0.2",
         "illuminate/support": "^5.8|~6|~7|~8",
         "aws/aws-sdk-php": "^3.183"
     },
